@@ -33,11 +33,17 @@ img{
     height: 4vh;
     width: 4vw;
 }
-h1{
-    font-size: 400px;
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 90vh;
+}
+h3{
+    font-size: 40px;
     font-weight: 800;
 }
 p{
     font-size: 25px;
-    color: #D6E3ED;
 }
